@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 1000px;
+}
+
+.block {
+    background-image: url(./images/back.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    z-index: -10;
+    height: 100vh;
+}
+
+.ocean {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 750px;
+    z-index: 30;
+}
+
+.mountain {
+    position: absolute;
+    top: 576px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 10;
+}
+
+.mountain2 {
+    position: absolute;
+    top: 645px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    z-index: 3;
+    right: 0;
+}
+
+#cloud1 {
+    width: 900px;
+    position: absolute;
+    z-index: 3;
+    top: 70px;
+}
+
+#cloud2 {
+    width: 670px;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    right: 30px;
+}
+
+.sun {
+    width: 100px;
+}
+
+.s {
+    transform: rotate(147deg);
+    position: absolute;
+    z-index: 1;
+    top: 855px;
+    right: 353px;
+    width: 659px;
+    height: 104px;
+}
+
+#bird1 {
+    position: absolute;
+    color: black;
+    width: 50px;
+    top: 520px;
+    left: 460px;
+}
+
+#bird2 {
+    position: absolute;
+    color: black;
+    width: 60px;
+    left: 482px;
+    top: 590px;
+}
+
+
+#bird3 {
+    position: absolute;
+    left: 516px;
+    color: black;
+    width: 100px;
+    top: 540px;
+}
